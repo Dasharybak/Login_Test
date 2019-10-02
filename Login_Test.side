@@ -1,0 +1,171 @@
+{
+  "id": "54a3a6ea-4c36-4ac2-a828-11a8aacd313b",
+  "version": "2.0",
+  "name": "Login_Test",
+  "url": "https://www.r2games.com",
+  "tests": [{
+    "id": "9aa5d5f2-ac4e-4a56-902d-e01570a9c0c2",
+    "name": "Game Login",
+    "commands": [{
+      "id": "355cb3b7-c161-46be-9b3e-4d810d36c233",
+      "comment": "",
+      "command": "open",
+      "target": "/play/?game=490",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b84772b-77da-47c9-9873-79141300f6a3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x788",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4952960-54a8-4984-befd-e4d571220a8f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f10eb86-b5d3-4986-8041-ca4fdbe3bd58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user .i-delete",
+      "targets": [
+        ["css=.user .i-delete", "css:finder"],
+        ["xpath=//form[@id='J-login']/dl/dd/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"],
+        ["xpath=//i[contains(.,'e')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b89539c-2011-4932-aa8d-2330062ab8fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwd .i-delete",
+      "targets": [
+        ["css=.pwd .i-delete", "css:finder"],
+        ["xpath=//form[@id='J-login']/dl/dd[2]/div/i", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f59e061f-81af-468d-a389-fa97a24ef448",
+      "comment": "",
+      "command": "click",
+      "target": "css=.user .input-placeholder",
+      "targets": [
+        ["css=.user .input-placeholder", "css:finder"],
+        ["xpath=//form[@id='J-login']/dl/dd/div/span", "xpath:idRelative"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Email or nick name')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb3f2591-3539-4e0a-8708-8871d01d93d7",
+      "comment": "",
+      "command": "type",
+      "target": "name=login_id",
+      "targets": [
+        ["name=login_id", "name"],
+        ["css=.input-focus", "css:finder"],
+        ["xpath=//input[@name='login_id']", "xpath:attributes"],
+        ["xpath=//form[@id='J-login']/dl/dd/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Nathe1927@einrot.com"
+    }, {
+      "id": "c049ffb6-5dae-4aa1-be51-51979d5ceb2e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "1df021c8-3dfb-441b-877d-abb7d85e0312",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_popups_mask",
+      "targets": [
+        ["id=user_popups_mask", "id"],
+        ["css=#user_popups_mask", "css:finder"],
+        ["xpath=//div[@id='user_popups_mask']", "xpath:attributes"],
+        ["xpath=//div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e765c0e9-497e-4d1d-91e4-3cb857787b4a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=2"]
+      ],
+      "value": ""
+    }, {
+      "id": "345ce203-d1b4-410d-a79b-82301849f888",
+      "comment": "",
+      "command": "click",
+      "target": "css=.pwd .input-placeholder",
+      "targets": [
+        ["css=.pwd .input-placeholder", "css:finder"],
+        ["xpath=//form[@id='J-login']/dl/dd[2]/div/span", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Please enter a password.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c39ccdd6-631f-4ca1-a747-719a8d803791",
+      "comment": "",
+      "command": "type",
+      "target": "name=login_pwd",
+      "targets": [
+        ["name=login_pwd", "name"],
+        ["css=.input-focus", "css:finder"],
+        ["xpath=//input[@name='login_pwd']", "xpath:attributes"],
+        ["xpath=//form[@id='J-login']/dl/dd[2]/div/input", "xpath:idRelative"],
+        ["xpath=//dd[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test1234"
+    }, {
+      "id": "0c63464f-3cf0-445c-8222-8fe3bb08b8da",
+      "comment": "",
+      "command": "click",
+      "target": "css=dd:nth-child(6) em",
+      "targets": [
+        ["css=dd:nth-child(6) em", "css:finder"],
+        ["xpath=//form[@id='J-login']/dl/dd[4]/div/label/em", "xpath:idRelative"],
+        ["xpath=//em", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e6a72e-040f-4522-830d-8ee16c5791a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.J-login-btn",
+      "targets": [
+        ["css=.J-login-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Login')])[2]", "xpath:link"],
+        ["xpath=//form[@id='J-login']/dl/dd[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[5]", "xpath:href"],
+        ["xpath=//dd[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9795f799-d75a-4a5a-b0f6-b0ead1a22095",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9aa5d5f2-ac4e-4a56-902d-e01570a9c0c2"]
+  }],
+  "urls": ["https://www.r2games.com/"],
+  "plugins": []
+}
